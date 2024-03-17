@@ -1,0 +1,8 @@
+.sign-in-cont{
+    display: flex;
+}
+.left-cont{
+    background-color: #000000;
+    width: 588px;
+    height: 1024px;
+}
