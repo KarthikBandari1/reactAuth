@@ -1,5 +1,6 @@
-import "./index.css";
-
+import "./index.css"
+import {googleEl} from "../../assets/index.js"
+import {appleEl} from "../../assets/index.js"
 const SignIn = () => (
   <div className="sign-in-cont">
     <div className="left-cont">
@@ -10,13 +11,13 @@ const SignIn = () => (
       <p>Sign in to your account</p>
       <div className="df">
         <div className="small-card-cont">
-          <img src="../../assets/google.png" alt="google" />
+          <img src={googleEl} alt="google" />
           <p className="small-card-text">Sign in with Google</p>
         </div>
-        <p className="small-card-cont">
-          <img src="../../assets/apple.png" alt="apple" />
+        <div className="small-card-cont">
+          <img src={appleEl} alt="apple" />
           <p className="small-card-text">Sign in with Apple</p>
-        </p>
+        </div>
       </div>
     </div>
   </div>
