@@ -36,10 +36,117 @@
 }
 .small-card-cont {
   width: 180px;
-  height: 30px;
-  color: white;
+  height: 35px;
+  background-color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.small-card-cont2 {
+  width: 180px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 20px;
 }
 .df {
   display: flex;
+}
+.google-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+.sign-in-text {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.sign-down {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-top: 2px;
+}
+.form-cont {
+  width: 385px;
+  height: 317px;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.form-label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  font-family: Lato;
+  margin-bottom: 5px;
+  font-family: Lato;
+}
+.input {
+  width: 325px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  border-width: 0px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 12px;
+}
+.fp {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #346bd4;
+  cursor: pointer;
+}
+.sign-but {
+  width: 325px;
+  height: 40px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dont {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+span {
+  color: #346bd4;
+  cursor: pointer;
 }
